@@ -4,12 +4,12 @@ package com.aj2.aj2lab01_02;
  * Globalcode - "The Developers Company"
  * 
  * Academia do Java
- * O metodo inicializaConta e util para evitar a necessidade de inicializar
- * atributo por atributo, desta forma podemos chamar um unico metodo e passar
- * todos os parametros em uma unica chamada.
+ * O método inicializaConta e util para evitar a necessidade de inicializar
+ * atributo por atributo, desta forma podemos chamar um único método e passar
+ * todos os parâmetros em uma única chamada.
  * 
- * 1) Implemente os metodos que nao foram implementados na classe Conta de 
- * acordo com a especificacao nos metodos.
+ * 1) Implemente os métodos que nao foram implementados na classe Conta de 
+ * acordo com a especificação nos métodos.
  */
 class Conta {
 

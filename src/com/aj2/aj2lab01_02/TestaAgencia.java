@@ -8,11 +8,11 @@ package com.aj2.aj2lab01_02;
 class TestaAgencia {
 
     public static void main(String[] args) {
-        // Criacao da agencia
+        // Criação da agencia
     	Agencia ag = new Agencia();
-        // Inicializacao da agencia
+        // Inicialização da agencia
     	ag.inicializaAgencia("3715", 237);
-        // Impressao dos dados da agencia
+        // Impressão dos dados da agencia
     	ag.imprimeDados();
     }
 }

@@ -5,7 +5,7 @@ package com.aj2.aj2lab01_02;
  * 
  * Academia do Java
  * 
- * 1) Seguindo o modelo da classe Cliente, crie o metodo 
+ * 1) Seguindo o modelo da classe Cliente, crie o método 
  *    inicializaAgencia da classe Agencia
  * 
  */
@@ -27,7 +27,7 @@ class Agencia {
 	}
 
 	/**
-	 * Metodo para impressao de todos os dados da classe
+	 * Método para impressão de todos os dados da classe
 	 */
 	void imprimeDados() {
 		System.out.println("----------------------");

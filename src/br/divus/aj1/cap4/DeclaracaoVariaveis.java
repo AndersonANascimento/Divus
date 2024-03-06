@@ -5,7 +5,7 @@ package br.divus.aj1.cap4;
 public class DeclaracaoVariaveis {
     public static void main(String[] args) {
         String nome = "Anderson Abreu do Nascimento";
-        int idade = 44;
+        int idade = 50;
         String rg = "1081186-9";
         char sexo = 'M';
         double salario = 8000.00;

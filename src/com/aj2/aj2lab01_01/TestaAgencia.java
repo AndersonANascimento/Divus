@@ -15,11 +15,11 @@ package com.aj2.aj2lab01_01;
  * AGENCIA: 1    BANCO  : 234
  * -----------------------------
  * 
- * Sugestoes: 
+ * Sugestões: 
  * Utilizando '\t' para tab
  * Ex: System.out.println("Texto\tTexto");
  * 
- * voce produzira a seguinte saida: 
+ * voce produzira a seguinte saída: 
  * Texto  Texto
  */
 class TestaAgencia {

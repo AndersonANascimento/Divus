@@ -5,7 +5,7 @@ package com.aj2.aj2lab01_02;
  * 
  * Academia do Java
  * 
- * Analise o codigo
+ * Analise o código
  * 
  */
 class Cliente {
@@ -25,7 +25,7 @@ class Cliente {
     }
 
     /**
-     * Metodo para impressao de todos os dados da classe
+     * Método para impressão de todos os dados da classe
      */
     void imprimeDados() {
         System.out.println("----------------------");

@@ -8,11 +8,11 @@ package com.aj2.aj2lab01_02;
 class TestaCliente {
 
     public static void main(String[] args) {
-        // Criacao do cliente
+        // Criação do cliente
     	Cliente cli = new Cliente();
-        // Inicializacao do cliente
+        // Inicialização do cliente
     	cli.inicializaCliente("Anderson", "45612536291");
-        // Impressao dos dados do cliente
+        // Impressão dos dados do cliente
     	cli.imprimeDados();
     }
 }
