@@ -8,6 +8,7 @@ public class TesteOperadoresAritmeticos {
         int meuInt;
         long meuLong;
         long meuLongComCast;
+        double meuDoubleComCast;
         int mod;
         System.out.println("a = " + a);
         System.out.println("b = " + b);
@@ -24,7 +25,7 @@ public class TesteOperadoresAritmeticos {
         meuLong = a * b;
         System.out.println(" a*b (armazenados em um long) = " + meuLong);
 
-        // como a variável 'a' é explicitamente convertida para umlong,
+        // como a variável 'a' é explicitamente convertida para um long,
         // o resultado do produto torna-se um long
         meuLongComCast = (long) a * b;
         System.out.println(" a*b (como long) = " + meuLongComCast);
@@ -32,6 +33,10 @@ public class TesteOperadoresAritmeticos {
         // o resultado da operação a/b é feita como um long
         meuLongComCast = (long) a / b;
         System.out.println(" a/b (como long) = " + meuLongComCast);
+        
+        // o resultado da operação a/b é feita como um double
+        meuDoubleComCast = (double) a / b;
+        System.out.println(" a/b (como double) = " + meuDoubleComCast);
 
         // operador mod => resto da divisão de a por b
         mod = 12 % 4;

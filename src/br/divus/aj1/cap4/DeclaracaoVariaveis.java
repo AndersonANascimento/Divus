@@ -8,7 +8,7 @@ public class DeclaracaoVariaveis {
         int idade = 50;
         String rg = "1081186-9";
         char sexo = 'M';
-        double salario = 8000.00;
+        double salario = 13000.00;
 
         System.out.println("Senhor(a) "+nome+", de "+idade+" anos, portador(a) do RG de n\u00FAmero "+rg+", do sexo '"+sexo+"' est\u00E1 registrado(a) com o sal\u00E1rio de R$ "+salario);
     }    
