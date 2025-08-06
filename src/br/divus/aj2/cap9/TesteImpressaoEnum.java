@@ -14,5 +14,10 @@ public class TesteImpressaoEnum {
             System.out.print(tipo + ", ");
         }
         System.out.println("}");
+        System.out.print("Meses do Ano: { ");
+        for (Mes mes : Mes.values()) {
+            System.out.print(mes + ", ");
+        }
+        System.out.println("}");
     }
 }

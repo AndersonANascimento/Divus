@@ -55,9 +55,10 @@ public class Pessoa {
     }
 
     public String toString() {
-        String tmpPessoa = super.toString() + "\nNome: " + nome + "\n";
-        tmpPessoa += "RG..: " + rg + "\n";
-        tmpPessoa += "Endereço: " + endereco.getRua() + ", " + endereco.getNumero();
+        String tmpPessoa = super.toString() + "\n{\n";
+        tmpPessoa += "\t'nome': '" + nome + "',\n";
+        tmpPessoa += "\t'rg': '" + rg + "',\n";
+        tmpPessoa += "\t'endereco': '" + endereco.getRua() + ", " + endereco.getNumero() + "'\n}";
         return tmpPessoa;
     }
 }

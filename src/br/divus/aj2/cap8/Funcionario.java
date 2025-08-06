@@ -15,6 +15,11 @@ public class Funcionario extends Pessoa {
     private double salario;
     private String dataAdmissao;
 
+    public Funcionario (Endereco endereco, String nome, String rg) {
+        super(endereco, nome, rg);
+        System.out.println("Construtor da classe Funcionario sem carteira, salário e data de admissão");
+    }
+
     public Funcionario (Endereco endereco, String nome, String rg, long carteira, double salario, String dataAdmissao) {
         super(endereco, nome, rg);
         setCarteiraProfissional(carteira);

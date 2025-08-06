@@ -5,7 +5,7 @@ package br.divus.aj2.cap9;
  */
 public class TesteCliente {
     public static void main(String[] args) {
-        Cliente c = new Cliente("Maria", "maria@gc.com.br", Cliente.PESSOA_FISICA);
+        Cliente c = new Cliente("Maria", "maria@gc.com.br", Cliente.TipoCliente.PESSOA_FISICA);
         System.out.println("tipo de cliente criado = " + c.getTipo());
     }
 }

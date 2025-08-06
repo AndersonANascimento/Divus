@@ -82,9 +82,11 @@ public class Curso {
 
 	@Override
 	public String toString() {
-		return super.toString() + '\n' + "Nome: " + getNome() + '\n'
-				+ "Descrição: " + getDescricao() + '\n' + "Codigo: "
-				+ getCodigo() + '\n' + "Carga Horaria: " + getCargaHoraria();
+		return super.toString() + '\n' 
+			+ "Nome: " + getNome() + '\n'
+			+ "Descrição: " + getDescricao() + '\n' 
+			+ "Código: " + getCodigo() + '\n' 
+			+ "Carga Horaria: " + getCargaHoraria();
 	}
 
 }

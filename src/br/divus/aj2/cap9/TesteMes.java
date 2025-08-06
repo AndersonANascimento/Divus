@@ -6,6 +6,13 @@ package br.divus.aj2.cap9;
 public class TesteMes {
     public static void main(String[] args) {
         Mes mes = Mes.JANEIRO;
+        if (args.length > 0) {
+            try {
+                mes = Mes.valueOf(args[0].toUpperCase());
+            } catch (IllegalArgumentException e) {
+                System.out.println("Mês inválido: " + args[0]);
+            }
+        }
         String mensagem = (mesFeriasEscolares(mes) ? " " : " não ") + "é mês de férias escolares";
         System.out.println(mes + mensagem);
     }
